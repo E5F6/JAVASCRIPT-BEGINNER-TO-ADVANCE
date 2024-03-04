@@ -121,4 +121,52 @@
 
 // a string is assigned to the variable string is a group of words
 
+// let firstname = "Priyanshu";
+// let lastname = "Chahar";
+
+// 1. Concatenation
+    // let fullname = firstname.concat(lastname);
+    // console.log(fullname);
+
+// 2. Append
+    // firstname += " Something else";
+    // console.log(firstname);
+
+// 3.Length
+    // console.log(firstname.length);
+
+// 4. Cases
+    // console.log(firstname.toLowerCase());
+    // console.log(firstname.toUpperCase());
+
+// 5. Slice
+    // console.log(firstname.slice(0,7));
+
+// 6. Split & Join
+    // console.log(firstname.split(' ').join(' '));
+
+// 7. Includes
+    // console.log(firstname.includes("s"));
+
+// 8. Trim
+    // console.log(firstname.trim());
+
 // -----------------------------------------------------------------------
+
+// Type Conversion
+
+// Is used for changing data type for any variable
+
+    // let money = "70";
+    // money =+ money;
+    // money = parseInt(money);
+    // money = Number(money);
+
+    // let money = 70;
+    // money = money.toString();
+    // money = String(money);
+
+    // console.log(typeof money);
+
+    // there are some more methods for other data types prefer documentations for those
+//-----------------------------------------------------------------------
