@@ -92,21 +92,61 @@
 
 // Arrays --> 0 index base
 
-let fruits = ["Mango" , "Banana" , "Litchi"];
-let shake = ["mangoShake" , "bananaShake" , "litchiShake"];
+// let fruits = ["Mango" , "Banana" , "Litchi"];
+// let shake = ["mangoShake" , "bananaShake" , "litchiShake"];
 
-console.log(fruits);
-console.log(fruits[2],shake[2]);
-console.log(fruits.length);
-console.log(fruits.concat(shake));
-console.log(...fruits , ...shake);
+// console.log(fruits);
+// console.log(fruits[2],shake[2]);
+// console.log(fruits.length);
+// console.log(fruits.concat(shake));
+// console.log(...fruits , ...shake);
 
 // push pop slice sort and other methods too
 
-fruits.push("Apple");
-console.log(fruits);
-shake.pop();
-console.log(shake);
+// fruits.push("Apple");
+// console.log(fruits);
+// shake.pop();
+// console.log(shake);
 
 //---------------------------------------------------------------------
+
+// Object a collection of data
+
+// const user = {
+//     firstName : "Priyanshu",
+//     lastName : "Chahar",
+//     userName : "Priyannxhuu",
+//     location : "India",
+//     age : 19,
+//     dob : "21/11/2004",
+//     isProgrammer : true,
+// }
+
+// console.log(user);
+// console.log(user.firstName);
+// console.log(user.isProgrammer);
+// console.log(user["age"]);
+// console.log(user.age , user.location);
+
+//---------------------------------------------------------------------
+
+// Functions a code of block that performs specific task
+
+// function hello(){
+//     console.log("Hello From A Function");
+// }
+// // call the function
+// hello();
+
+// function hello(e){
+//     console.log(`Hello ${e}`);
+// }
+// //e is a parametere here and this can be accessible using same function name only
+// hello("Priyanshu");
+
+// function add(a,b){
+//     return a+b;
+// };
+
+// console.log(add(3,4));
 
