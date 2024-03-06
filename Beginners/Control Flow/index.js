@@ -150,3 +150,47 @@
 
 // console.log(add(3,4));
 
+// Function declaration
+
+// function name (userName){
+//     console.log(`Hello ${userName}`);
+// }
+// name("Priyanshu");
+
+// // Function expression
+
+// const hello = function(user){
+//     console.log(`Hello ${user}`);
+// }
+// hello("Priyanxhu");
+
+//---------------------------------------------------------------------
+
+// Callback
+// function as a argument to other funtion while calling the function
+//in simple calling a funtion in other function
+
+// function showCallFunc(fn){
+//     const value = 7;
+//     fn(value);
+// }
+// showCallFunc(function(value){
+//     console.log(value);
+// })
+
+// function greet(name , cb){
+//     console.log(`Hello ${name}`);
+//     cb();
+// }
+
+// greet("Priyanshu" , function cb(){
+//     console.log("I am callback funtion");
+// });
+
+//---------------------------------------------------------------------
+
+// Scopes are used for accessibility of variables
+
+// Global Scope declare outside of a block
+
+// Local Scope declared inside of a block
