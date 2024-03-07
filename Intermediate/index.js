@@ -118,3 +118,74 @@
 
 //---------------------------------------------------------------------
 
+// Ternary operator in js is a concise way of writing conditional expression it is the only js operator that takes three operands
+
+// condition ? exprIfTrue : exprIfFalse;
+
+// let password = "Priyanshu";
+
+// function passwordChecker(ps){
+//     // if(ps.length === 8)
+//     // {
+//     //     return "Good Password";
+//     // }
+//     // else{
+//     //   return "Password should be 8 character long";
+//     // }
+
+//     return ps.length === 8 ? `Strong Password` : `Password Should Be 8 Character Long`;
+// }
+
+// const res = passwordChecker(password);
+// console.log(res);
+
+// let money = 200;
+
+// function output(money){
+//     return money === 300 ? "Enough Money" : "More money required";
+// }
+
+// console.log(output(money));
+
+//---------------------------------------------------------------------
+
+// for (let key in object)
+
+// const person = {
+//     name : "Prianshu",
+//     age : 19,
+//     location : "IN",
+// }
+
+// for(let keys in person){
+//     console.log(keys ,person[keys]);
+// }
+
+// const list = ["Priyanshu" , "Priyanxhu"]
+
+// for(let keys in list){
+//     console.log(keys , list[keys]);
+// }
+
+// in array this will give index along with the keys
+
+//---------------------------------------------------------------------
+
+// For of loope ES6
+
+// let peoples = ["Priyanshu" , "Ryuk"]
+
+// for( let people of peoples){
+//     console.log(people);
+// }
+// this will not give index as let in
+
+// const name = "Priyanshu";
+
+// for( let char of name){
+//     console.log(char);
+// }
+
+//---------------------------------------------------------------------
+
+// For each helper
