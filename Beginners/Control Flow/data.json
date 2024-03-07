@@ -1,0 +1,9 @@
+
+{
+    "name" : "Priyanshu",
+    "age" : 19,
+    "email" : "priyanxhuchahar@gmail.com",
+    "isLoggedIn" : true,
+    "location" : "India",
+    "hobby" : "Programming"
+}

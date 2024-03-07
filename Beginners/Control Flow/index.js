@@ -189,8 +189,108 @@
 
 //---------------------------------------------------------------------
 
-// Scopes are used for accessibility of variables
+// Scopes(variables) are used for accessibility of variables
 
 // Global Scope declare outside of a block
 
 // Local Scope declared inside of a block
+
+// let textMessage = "Global Variable";
+//this is a global variable
+// {
+//     let textMessage = "Local Variable";
+//     console.log(textMessage);
+// }
+// this is a local variable these variable are not accessible outside this block
+
+// console.log(textMessage);
+
+//---------------------------------------------------------------------
+
+// Method is a function inside a object
+
+// const person = {
+//     name : "Priyanshu",
+//     age : 19,
+//     greet:function(){
+//         return `Hello my name is ${person.name} and my age is ${person.age}`;
+//     },
+// };
+
+// console.log(person.greet());
+
+//---------------------------------------------------------------------
+
+
+// JSON
+// json is just like a object in js but its attributes are with ""
+
+// const person = {
+//   name: "Priyanshu",
+//   age: 19,
+//   email: "priyanxhuchahar@gmail.com",
+//   isLoggedIn: true,
+//   location: "India",
+//   hobby: "Programming",
+// };
+
+// // JSON.stringfy(); this will convert object to json
+
+// const jsonString = JSON.stringify(person);
+// const parsedObject = JSON.parse(jsonString);
+
+// console.log(jsonString);
+// console.log(parsedObject);
+
+//---------------------------------------------------------------------
+
+// Date and time
+
+// const currenDate = new Date();
+// console.log(currenDate);
+
+// const currentYear = currenDate.getFullYear();
+// const currentMonth = currenDate.getMonth();
+// const currentDay = currenDate.getDay();
+// const currentHour = currenDate.getHours();
+// const currentMinutes = currenDate.getMinutes();
+// const currentSeconds = currenDate.getSeconds();
+
+// console.log(currentYear);
+// console.log(currentMonth);
+// console.log(currentDay);
+// console.log(currentHour);
+// console.log(currentMinutes);
+// console.log(currentSeconds);
+
+// console.log(currenDate.toDateString());
+// console.log(currenDate.toTimeString());
+// console.log(currenDate.toLocaleString());
+
+// currenDate.setDate(currenDate.getDate()+1);
+// console.log(currenDate);
+
+//---------------------------------------------------------------------
+
+// Set Interval
+
+// it is used for update the data by time delay
+
+// setInterval(() => {
+//     console.log("This function will excectes every one second");
+// }, 1000);
+
+// Set Timeout
+
+// setTimeout(() => {
+//     console.log("This function will be executed after 2 second");
+// }, 2000);
+
+// const Interval = setInterval(() => {
+//     console.log("Interval");
+// }, 1000);
+
+// setTimeout(() => {
+//     clearInterval(Interval);
+//     console.log("Interval Cleared");
+// }, 10000);
