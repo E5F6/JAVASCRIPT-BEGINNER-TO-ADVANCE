@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #171717;
+    color: #ccc;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 100px auto;
+}
