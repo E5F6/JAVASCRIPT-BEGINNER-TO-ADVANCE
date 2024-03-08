@@ -189,3 +189,45 @@
 //---------------------------------------------------------------------
 
 // For each helper
+
+// const number = [1,2,3,4,5,6,7];
+
+// number.forEach((numbers) => console.log(numbers));
+// for each method
+
+// const words = ["one" , "two" , "three" , "four"];
+
+// words.forEach((word) => console.log(word));
+
+//-------------------------------------------------------------------
+
+// Map method this will create a new array or object using the previous
+
+// const numbers = [1,2,3,4,5,6,7];
+
+// let double = numbers.map(num => num*2);
+// console.log(double);
+
+//--------------------------------------------------------------------
+
+// Filter method in js allows to create a new array using specific criteria
+
+const users = [
+    {
+        name : "Priyanshu",
+        age : 19,
+        hobby : "Programming"
+    },
+    {
+        name : "Priyanshuu",
+        age : 17,
+        hobby : "Programming" 
+    },
+    {
+        name : "Priyanxhu",
+        age : 19,
+        hobby : "Programming"
+    },
+]
+
+console.log(users.filter(user => user.age > 18));
