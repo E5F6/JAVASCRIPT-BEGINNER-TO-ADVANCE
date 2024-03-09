@@ -212,22 +212,88 @@
 
 // Filter method in js allows to create a new array using specific criteria
 
-const users = [
-    {
-        name : "Priyanshu",
-        age : 19,
-        hobby : "Programming"
-    },
-    {
-        name : "Priyanshuu",
-        age : 17,
-        hobby : "Programming" 
-    },
-    {
-        name : "Priyanxhu",
-        age : 19,
-        hobby : "Programming"
-    },
-]
+// const users = [
+//     {
+//         name : "Priyanshu",
+//         age : 19,
+//         hobby : "Programming"
+//     },
+//     {
+//         name : "Priyanshuu",
+//         age : 17,
+//         hobby : "Programming" 
+//     },
+//     {
+//         name : "Priyanxhu",
+//         age : 19,
+//         hobby : "Programming"
+//     },
+// ]
 
-console.log(users.filter(user => user.age > 18));
+// console.log(users.filter(user => user.age > 18));
+
+// const users = [
+//     {
+//         name : "Priyanshu",
+//         year : "2nd",
+//         section : "X",
+//     },
+//     {
+//         name : "Priyanshu",
+//         year : "2nd",
+//         section : "A",
+//     },
+//     {
+//         name : "Priyanshu",
+//         year : "2nd",
+//         section : "L",
+//     },
+// ]
+// const x = "X"; 
+// console.log(users.filter(user => user.section === x));
+
+//--------------------------------------------------------------------
+
+// find method  is used to find first element in an array that matches a specific condition
+
+// const people = [
+//     {name : "Priyanshu", age: 19},
+//     {name : "Priyanxhu", age: 19},
+//     {name : "Priyanshu", age: 20},
+//     {name : "Priyanxhu", age: 20},
+// ]
+
+// const find = people.find((person) => person.age === 19);
+// console.log(find);
+
+//--------------------------------------------------------------------
+
+// every() and some() array methods
+
+// every() when every element pass the condition
+
+// some() when atleat one element pass the condition
+
+// const peoples = ["Priyanshu" , "Priyanxhu" , "BlackWolf"];
+
+// const res1 = peoples.every((people) => people.length === 9);
+// const res2 = peoples.some((people) => people.length > 9);
+
+// console.log(res1);
+// console.log(res2);
+
+//--------------------------------------------------------------------
+
+// reduce method provide results in a single value
+
+// const numbers = [1,2,3,4,5,6,7];
+
+// const result = numbers.reduce((p , c) => {
+//     return p + c;
+// } ,0)
+
+// console.log(result);
+
+// often used for calculations
+
+//--------------------------------------------------------------------
