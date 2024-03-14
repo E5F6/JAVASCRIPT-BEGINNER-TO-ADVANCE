@@ -54,3 +54,13 @@
 
 //--------------------------------------------------------------------
 
+// classlist // used for accessing the classname for any tag and for controll class
+
+// const classlist = document.getElementById('classlist');
+
+// console.log(classlist.classList);
+
+//--------------------------------------------------------------------
+
+// Attributes
+
