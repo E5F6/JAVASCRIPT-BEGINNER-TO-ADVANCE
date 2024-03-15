@@ -22,3 +22,14 @@ h2{
 h3{
     font-size: 2rem;
 }
+a{
+    color: #ccc;
+    font-size: 2rem;
+    text-decoration: none;
+}
+input{
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+}

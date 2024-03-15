@@ -64,3 +64,48 @@
 
 // Attributes
 
+//getting attributes
+
+// const a = document.querySelector('a');
+// const input = document.querySelector('input');
+
+// console.log(a.href);
+// console.log(input.value);
+
+//set attribute
+
+// input.setAttribute('placeholder' , 'Password');
+
+//--------------------------------------------------------------------
+
+ // siblings
+
+//  const parent = document.querySelector('li');
+
+//  console.log(parent.parentElement);
+
+// const child = document.querySelector('ul');
+
+// console.log(child.children);
+
+//--------------------------------------------------------------------
+
+// style
+
+// const applyStyle = document.getElementById('style');
+
+// applyStyle.style.color = 'teal';
+// applyStyle.style.border = '2px solid #ccc';
+// applyStyle.style.backgroundColor = "#212121";
+
+
+//--------------------------------------------------------------------
+
+// creating elements & appending it to the DOM
+
+// const h2 = document.createElement("h2");
+// const body = document.getElementById('container');
+
+// h2.classList.add('h2tag');
+// h2.innerText = "This is a H2 tag created using javascript";
+// body.appendChild(h2);
