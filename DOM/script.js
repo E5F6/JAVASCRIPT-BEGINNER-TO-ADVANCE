@@ -109,3 +109,47 @@
 // h2.classList.add('h2tag');
 // h2.innerText = "This is a H2 tag created using javascript";
 // body.appendChild(h2);
+
+// const ul = document.querySelector('ul');
+
+// const newLi = document.querySelector('li');
+
+// newLi.innerText = `I'm li tag`;
+
+// ul.appendChild(newLi);
+
+// and there are some more methods explore using documentations
+
+//--------------------------------------------------------------------
+
+// Events
+
+// const button = document.querySelector('button');
+
+// button.addEventListener('click' , function(){
+//     alert('You clicked me !')
+//     console.log('You clicked me !');
+// })
+
+// there are some more events explore using docs
+
+// const input = document.querySelector('#input');
+// const button = document.querySelector('button');
+
+// input.addEventListener('input' , function(){
+//     const value = input.value;
+//     console.log(value);
+// })
+
+// button.addEventListener('click' , function(){
+//     const value = input.value;
+//     console.log(value);
+// })
+
+// this is used for form control
+
+//--------------------------------------------------------------------
+
+// Mouse event and keyboard events explore using docs
+
+//--------------------------------------------------------------------
