@@ -231,7 +231,7 @@
 
 // class modifiers are also known as access specifiers or visibility specifiers
 
-// private 
+// private
 // public
 // protected
 
@@ -426,3 +426,25 @@
 
 // Polymorphism multiple forms
 
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  makeSound() {
+    return "Unknown Sound";
+  }
+}
+
+class Dog extends Animal {
+  constructor(name) {
+    super(name);
+  }
+  makeSound() {
+    return "Wooof";
+  }
+}
+
+const dog = new Dog("Buddy");
+console.log(dog);
+console.log(dog.makeSound());
