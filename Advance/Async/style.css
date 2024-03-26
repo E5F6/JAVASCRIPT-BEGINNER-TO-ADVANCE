@@ -8,5 +8,7 @@
 body{
     background: #141414;
     color: #ccc;
-    font-size: 2rem;
+}
+h1{
+    text-align: center;
 }

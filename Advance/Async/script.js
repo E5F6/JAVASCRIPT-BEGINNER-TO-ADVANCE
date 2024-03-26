@@ -64,3 +64,101 @@
 
 // new Promise((resolve , reject)=>{}) syntax for promise
 
+// function checkNumber(number) {
+//   return new Promise((resolve, reject) => {
+//     if (number % 2 === 0) {
+//       resolve(`${number} is an even number`);
+//     } else {
+//       reject(`${number} is odd number`);
+//     }
+//   });
+// }
+
+// const numberCheck = 7;
+
+// checkNumber(numberCheck)
+//   .then((message) => {
+//     console.log(`Success : ${message}`);
+//   })
+//   .catch((error) => {
+//     console.log(`Error : ${error}`);
+//   });
+
+//---------------------------------------------------------------
+
+// async function
+
+// function fetchDataFromServer() {
+//     return new Promise ((resolve , reject)=>{
+//         setTimeout(() => {
+//         resolve("User data retrieved from the server");
+//         }, 2000);
+//     })
+// }
+
+// async function getUserData(){
+//     try{
+//         const data = await fetchDataFromServer();
+//         console.log(data);
+//         console.log("Remaining tasks can be excuted here");
+//     }
+//     catch(error){
+//         console.log(error);
+//     }
+// }
+
+// getUserData();
+
+//-------------------------------------------------------------
+
+// fetch("robot.txt")
+
+// .then((res) => res.text())
+// .then(data => console.log(data))
+// .catch((err) => console.log(err))
+
+// const result = document.querySelector(".userdata");
+
+// async function readData(){
+
+//     try {
+//         console.log("Retrieving Data Successfully");
+//     } catch (error) {
+//         console.log(error);
+//     }
+
+//     const response = await fetch("robot.txt")
+//     const data = await response.text()
+//     result.textContent = data
+//     console.log(data);
+// }
+
+// readData()
+
+//-------------------------------------------------------------
+
+// fetch api
+
+// const btn = document.querySelector(".btn");
+// btn.addEventListener('click' , makeRequest)
+
+// function makeRequest() {
+//     fetch("https://jsonplaceholder.typicode.com/posts/1").then(res => {
+//         if(!res.ok)
+//         new Error(res.statusText);
+//         return res.json();
+//     })
+//     .then(data=>{
+//         console.log(data.id);
+//         console.log(data.title);
+//         console.log(data.body);
+//         let output = document.querySelector(".all-post")
+//         data.forEach(element => {
+//             output.innerHTML += `
+//             <div>(ID) : ${element.id}</div>
+//             <div>(Title) : ${element.title}</div>
+//             <div>(Body) : ${element.body}</div>
+//             `
+//         });
+//     })
+// }
